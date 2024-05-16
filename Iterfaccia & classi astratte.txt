@@ -1,0 +1,38 @@
+INTERFACCIA :
+
+
+collezione di metodi astratti (senza corpo) e costanti;
+
+------------------------------------------------------
+
+serve per definire dei comportamenti;
+
+----------------------------------
+una classe può implementare più interfaccie
+
+----------------------------------------
+
+la classe che implementa l'interfaccia deve dare un corpo a tutte le firme dei suoi metodi
+
+------------------------------------------------------------------------------------------------
+
+non istanziabile
+
+
+CLASSE ASTRATTA :
+
+classe con proprietà instanza(attributi) e con almeno un metodo astratto senza corpo;
+
+----------------------------------------------------------------------------------
+
+rappresenta dei concetti astratti;
+
+---------------------------------
+una classe può estendere solo una classe astratta
+
+---------------------------------------------------
+
+la classe che estende la classe astratta deve implementare tutti i metodi astratti e può ridefinire i metodi concreti tramite @override
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+non istanziabile

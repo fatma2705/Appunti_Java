@@ -1,0 +1,290 @@
+
+Domanda: Che cosa è la OOP?
+Risposta: La OOP (Object-Oriented Programming) è un paradigma di programmazione che si basa sulla creazione e manipolazione di oggetti, i quali rappresentano istanze di classi. Questo approccio favorisce la modularità, l'estensibilità e la riutilizzabilità del codice.
+
+
+
+Domanda: Differenza tra il concetto di ‘classe’ e di ‘oggetto’?
+Risposta: Una classe è un modello astratto che definisce le caratteristiche e il comportamento di un insieme di oggetti simili. Un oggetto è un'istanza specifica di una classe, con attributi e comportamenti definiti dalla classe.
+
+
+
+Domanda: Che differenza c’è tra ‘passaggio per valore’ e ‘per riferimento’?
+Risposta: Nel passaggio per valore, viene passata una copia del valore di una variabile a un metodo, mentre nel passaggio per riferimento viene passato il riferimento all'oggetto. In Java, i tipi primitivi vengono passati per valore, mentre gli oggetti vengono passati per riferimento.
+
+
+
+Domanda: Che cosa sono le interfacce in Java?
+Risposta: Un'interfaccia in Java è un tipo di riferimento simile a una classe, ma contiene solo costanti e firme di metodi. Le classi che implementano un'interfaccia devono fornire un'implementazione per tutti i suoi metodi.
+
+
+
+Domanda: Che cosa sono le classi astratte?
+Risposta: Una classe astratta in Java è una classe che non può essere istanziata direttamente e può contenere metodi astratti, cioè metodi senza implementazione. Le classi che estendono una classe astratta devono fornire un'implementazione per i suoi metodi astratti.
+
+
+
+Domanda: Qual è la differenza tra classi astratte ed interfacce?
+Risposta: Le classi astratte possono contenere sia metodi astratti che metodi concreti, mentre le interfacce possono contenere solo firme di metodi. Inoltre, una classe può estendere solo una classe astratta, ma può implementare più interfacce.
+
+
+
+Domanda: Cosa è l’Ereditarietà?
+Risposta: L'ereditarietà è un concetto fondamentale della programmazione orientata agli oggetti che permette a una classe di ereditare attributi e metodi da un'altra classe. La classe che eredita è chiamata sottoclasse o classe figlia, mentre la classe dalla quale eredita è chiamata superclasse o classe genitore.
+
+
+
+Domanda: Che differenza c’è tra il concetto di static ed il concetto di istanza?
+Risposta: I membri statici di una classe appartengono alla classe stessa e non a specifiche istanze di quella classe, mentre i membri di istanza appartengono a ogni singola istanza della classe.
+
+
+
+Domanda: Cosa sono i costruttori e qual è la parola chiave per richiamarli esternamente alla classe?
+Risposta: I costruttori sono metodi speciali chiamati durante la creazione di un nuovo oggetto. La parola chiave per richiamare un costruttore esternamente è "new".
+
+
+
+Domanda: Come si richiama un costruttore da un altro costruttore?
+Risposta: Per richiamare un costruttore da un altro nella stessa classe si utilizza la parola chiave "this" seguita dal nome del costruttore e dai parametri necessari.
+
+
+
+Domanda: Che cosa è il polimorfismo?
+Risposta: Il polimorfismo è un concetto che permette a un oggetto di assumere forme diverse. In Java, il polimorfismo può essere raggiunto attraverso l'ereditarietà e l'implementazione di interfacce.
+
+
+
+Domanda: Quale è la differenza tra gli array e le Collection in java?
+Risposta: Gli array sono strutture dati di dimensione fissa che contengono elementi dello stesso tipo, mentre le Collection sono strutture dati dinamiche che possono contenere elementi di diversi tipi e possono essere ridimensionate dinamicamente.
+
+
+
+Domanda: Cosa si intende con il termine generics?
+Risposta: I generics in Java consentono di creare classi, interfacce e metodi che operano su tipi specifici senza specificare il tipo effettivo fino al momento dell'utilizzo.
+
+
+
+Domanda: Che cosa è un pattern?
+Risposta: In programmazione, un pattern è una soluzione progettata per risolvere un problema ricorrente in un contesto specifico. I design pattern sono soluzioni generali a problemi comuni che si verificano nella progettazione del software.
+
+
+
+Domanda: Quali pattern conosci?
+Risposta: DAO , SERVICE , FACTORY , SINGLETON , BUILD , MVC(Model , View , Controller) .
+
+
+
+Domanda: Che cosa è la classe Object?
+Risposta: La classe Object è la classe radice di tutte le classi in Java. Ogni classe in Java è una sottoclasse diretta o indiretta della classe Object.
+
+
+
+Domanda: Cosa sono i metodi equals e toString ed in quale classe è presente la loro implementazione base?
+Risposta: Il metodo equals viene utilizzato per confrontare due oggetti per l'uguaglianza, mentre il metodo toString viene utilizzato per ottenere una rappresentazione testuale di un oggetto. Entrambi i metodi sono definiti nella classe Object e possono essere sovrascritti dalle classi derivate.
+
+
+
+Domanda: Che cosa è l’override?
+Risposta: L'override è il processo mediante il quale un metodo definito in una superclasse viene ridefinito (ovvero sovrascritto) in una sottoclasse con un'implementazione diversa.
+
+
+
+Domanda: Che differenza c’è tra override ed overload?
+Risposta: Override si riferisce alla ridefinizione di un metodo già definito in una superclasse, mentre overload si riferisce alla definizione di più metodi con lo stesso nome ma con firme diverse nella stessa classe o in classi diverse.
+
+
+
+Domanda: Come si chiama la libreria per connettersi al database presente nella J2SE?
+Risposta: La libreria per connettersi al database presente nella J2SE è chiamata JDBC (Java Database Connectivity).
+
+
+
+Domanda: Che cosa è una specifica nel comune lessico delle librerie Java?
+Risposta: La libreri JDBC.
+
+
+Domanda: Che cosa sono gli Stream?
+Risposta: Gli Stream in Java sono una sequenza di elementi che supporta operazioni di aggregazione e trasformazione. Gli Stream possono essere utilizzati per elaborare dati in modo dichiarativo e parallelo.
+
+
+
+Domanda: Che cosa sono le lambda expression?
+Risposta: Le lambda expression sono funzioni anonime che possono essere trattate come oggetti e passate come argomenti a metodi o memorizzate in variabili. Sono utilizzate principalmente per semplificare il codice quando si lavora con interfacce funzionali.
+
+
+
+Domanda: Cosa sono le Eccezioni in Java?
+Risposta: Le Eccezioni in Java sono oggetti che rappresentano condizioni anomale o errori durante l'esecuzione di un programma. Le eccezioni possono essere gestite e rese più robuste attraverso il codice di gestione delle eccezioni.
+
+
+
+Domanda: Che differenza esiste tra le checked exceptions e quelle unchecked? Quale tra le due categorie è discendente di RuntimeException?
+Risposta: Le checked exceptions sono controllate dal compilatore e devono essere gestite o dichiarate nel codice, mentre le unchecked exceptions non sono controllate dal compilatore e possono essere gestite o meno a discrezione del programmatore. Le unchecked exceptions sono discendenti di RuntimeException.
+
+
+
+Domanda: Qual è l’oggetto radice della gerarchia delle eccezioni?
+Risposta: L'oggetto radice della gerarchia delle eccezioni è la classe Throwable.
+
+
+
+Domanda: Che cosa è il try-with-resources?
+Risposta: Il try-with-resources è una costruzione introdotta in Java 7 che permette di gestire automaticamente le risorse aperte in un blocco try, assicurandosi che vengano chiuse correttamente una volta terminato il blocco try.
+
+
+
+Domanda: Che cos’è il multithreading?
+Risposta: Il multithreading è un'abilità di un sistema operativo di eseguire più processi o thread contemporaneamente. In Java, il multithreading consente ai programmi di eseguire più compiti simultaneamente, migliorando l'efficienza e la reattività.
+
+
+
+Domanda: Che differenza c’è tra LocalDate, LocalTime e LocalDateTime?
+Risposta: LocalDate rappresenta una data senza un'informazione temporale, LocalTime rappresenta un'informazione temporale senza una data, mentre LocalDateTime rappresenta sia una data che un'informazione temporale, senza fuso orario.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ecco il file con le domande e le risposte separate:
+
+Domanda: Quali sono gli step implementativi per connettersi ed usufruire di un database con JDBC?
+Risposta: Gli step includono: 1. Caricare il driver JDBC. 2. Stabilire la connessione al database. 3. Creare un'istruzione SQL. 4. Eseguire l'istruzione e ottenere i risultati. 5. Gestire gli errori e chiudere la connessione.
+
+Domanda: Quanti DBMS conosci? Quale è il linguaggio di interrogazione dei database?
+Risposta: Ci sono molti DBMS, tra cui Oracle, MySQL, SQL Server, PostgreSQL, MongoDB, e altri. Il linguaggio di interrogazione dei database più comune è SQL (Structured Query Language).
+
+Domanda: Cosa sono le chiavi primarie? E le chiavi esterne?
+Risposta: Le chiavi primarie sono colonne in una tabella che identificano univocamente ogni riga della tabella stessa. Le chiavi esterne sono colonne in una tabella che creano un collegamento con una chiave primaria in un'altra tabella.
+
+Domanda: Cosa è una join e che differenza c’è tra una inner ed una left outer?
+Risposta: Una join è un'operazione che combina righe da due o più tabelle in base a un campo comune. Un'inner join restituisce solo le righe che hanno corrispondenze in entrambe le tabelle coinvolte, mentre una left outer join restituisce tutte le righe dalla tabella sinistra e le righe corrispondenti dalla tabella destra.
+
+Domanda: Cosa sono COUNT, AVG, SUM?
+Risposta: COUNT restituisce il numero di righe in un insieme di risultati, AVG calcola la media dei valori in una colonna, e SUM calcola la somma dei valori in una colonna.
+
+Domanda: La DISTINCT?
+Risposta: DISTINCT viene utilizzata per restituire solo valori univoci in una query.
+
+Domanda: A cosa servono le clausole GROUP BY, HAVING?
+Risposta: GROUP BY viene utilizzata per raggruppare le righe con valori simili in gruppi, mentre HAVING viene utilizzata per filtrare i risultati di un'operazione di raggruppamento.
+
+Domanda: PL/SQL?
+Risposta: PL/SQL è un'estensione di SQL utilizzata principalmente per programmazione di database in Oracle.
+
+Domanda: Hai la tabella Dipendenti e la tabella Dipartimento, legame molti a molti, come faresti la query che estrae la lista dei dipendenti con a fianco il numero di dipartimenti a cui è associato ognuno di essi?
+Risposta: SELECT Dipendenti.*, COUNT(Dipartimento.id) AS NumDipartimenti FROM Dipendenti LEFT JOIN Dipartimento_Dipendente ON Dipendenti.id = Dipartimento_Dipendente.dipendente_id LEFT JOIN Dipartimento ON Dipartimento_Dipendente.dipartimento_id = Dipartimento.id GROUP BY Dipendenti.id;
+
+Domanda: Se volessi il dipartimento con maggior numero di dipendenti?
+Risposta: SELECT Dipartimento.id, COUNT(Dipartimento_Dipendente.dipendente_id) AS NumDipendenti FROM Dipartimento LEFT JOIN Dipartimento_Dipendente ON Dipartimento.id = Dipartimento_Dipendente.dipartimento_id GROUP BY Dipartimento.id ORDER BY NumDipendenti DESC LIMIT 1;
+
+Domanda: Che cosa è l’ORM e che cosa è JPA?
+Risposta: ORM (Object-Relational Mapping) è una tecnica di programmazione che permette di mappare oggetti di un linguaggio di programmazione ad entità di un database relazionale. JPA (Java Persistence API) è una specifica Java che fornisce un framework per la gestione dei dati tramite ORM.
+
+Domanda: Come si fa il setup di un progetto JPA e soprattutto quali sono le annotation più importanti?
+Risposta: Il setup di un progetto JPA coinvolge l'aggiunta delle dipendenze JPA al file di configurazione del progetto, la configurazione di un'unità di persistenza nel file persistence.xml e l'annotazione delle classi Java con @Entity, @Table, @Id, @GeneratedValue, @ManyToOne, @OneToMany, ecc.
+
+Domanda: JPA può funzionare da solo o ha bisogno di un implementor? Se si quale usi in genere?
+Risposta: JPA è solo una specifica e ha bisogno di un implementor per funzionare. In genere si usa Hibernate come implementor di JPA.
+
+Domanda: Che cosa è JPQL?
+Risposta: JPQL (Java Persistence Query Language) è un linguaggio di query orientato agli oggetti simile a SQL, utilizzato per interrogare entità gestite da JPA.
+
+Domanda: Cosa sono le transazioni?
+Risposta: Le transazioni sono unità di lavoro atomiche che devono essere eseguite in modo coerente e isolato. In caso di successo, le transazioni vengono confermate (commit), altrimenti vengono annullate (rollback).
+
+Domanda: Cosa significa l’acronimo ACID?
+Risposta: ACID è un acronimo che rappresenta Atomicity (Atomicità), Consistency (Consistenza), Isolation (Isolamento), Durability (Durabilità), i principi fondamentali delle transazioni.
+
+Domanda: Che cosa è il pattern DAO e cosa significa questo acronimo?
+Risposta: DAO (Data Access Object) è un pattern architetturale che separa la logica di accesso ai dati dalla logica di business, creando un'interfaccia per accedere ai dati.
+
+Domanda: Che cosa si intende con il termine Connection Pool?
+Risposta: Un Connection Pool è un insieme di connessioni di database pre-create e riutilizzabili, che vengono mantenute aperte e gestite per ottimizzare le prestazioni del database.
+
+Domanda: Che cosa si intende con l’espressione reverse-engineering from entity to DB? Come si effettua con JPA? E con Spring DATA?
+Risposta: Reverse-engineering from entity to DB è il processo di generazione di uno schema di database basato sulle entità di un'applicazione. Con JPA, questo può essere fatto utilizzando tool come Hibernate Tools. Con Spring DATA, è possibile utilizzare funzionalità integrate per generare automaticamente uno schema di database basato sulle entità.
+
+Domanda: Che cosa è l'N+1 select problem?
+Risposta: L'N+1 select problem è un problema di prestazioni che si verifica quando si caricano entità correlate tramite relazioni di uno-a-molti o molti-a-molti in modo ricorsivo, causando molte query aggiuntive al database e riducendo le prestazioni complessive(caricamento Eager).
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+Ecco il file con le domande e le risposte separate:
+
+Domanda: Che cosa indicano le sigle HTTP, URL, HTML, IP e DNS?
+Risposta: HTTP (Hypertext Transfer Protocol) è il protocollo utilizzato per la comunicazione tra un browser web e un server. URL (Uniform Resource Locator) è un indirizzo che specifica la posizione di una risorsa su Internet. HTML (Hypertext Markup Language) è il linguaggio utilizzato per creare e formattare pagine web. IP (Internet Protocol) è un protocollo utilizzato per l'indirizzamento e il routing dei pacchetti di dati su Internet. DNS (Domain Name System) è un sistema utilizzato per tradurre gli indirizzi web in indirizzi IP.
+
+Domanda: Cosa sono gli asset di un progetto?
+Risposta: Gli asset di un progetto sono risorse utilizzate per la realizzazione di un'applicazione web, come immagini, file CSS, file JavaScript, file multimediali, ecc.
+
+Domanda: Che cosa è un’applicazione distribuita?
+Risposta: Un'applicazione distribuita è un'applicazione software composta da componenti che sono distribuiti su più nodi di un network. Questi componenti collaborano tra loro per fornire funzionalità specifiche dell'applicazione.
+
+Domanda: Cosa è un server? E un client?
+Risposta: Un server è un computer o un programma che fornisce servizi, risorse o dati ad altri dispositivi o programmi, noti come client, attraverso una rete. Un client è un computer o un programma che accede ai servizi, alle risorse o ai dati forniti da un server.
+
+Domanda: Html è un linguaggio di programmazione?
+Risposta: No, HTML (Hypertext Markup Language) non è un linguaggio di programmazione, ma un linguaggio di markup utilizzato per strutturare e formattare il contenuto delle pagine web.
+
+Domanda: Cosa sono i CSS?
+Risposta: CSS (Cascading Style Sheets) è un linguaggio utilizzato per definire lo stile e la presentazione di documenti HTML, inclusi layout, colori e tipi di carattere.
+
+Domanda: Che cosa è Jquery? E Ajax?
+Risposta: jQuery è una libreria JavaScript che semplifica l'attraversamento del DOM, la manipolazione degli eventi, l'animazione e l'interazione AJAX per la creazione di pagine web dinamiche. AJAX (Asynchronous JavaScript and XML) è una tecnica di sviluppo web che consente di aggiornare parti di una pagina web senza dover ricaricare l'intera pagina, utilizzando richieste asincrone al server.
+
+Domanda: Che cosa indica la sigla MVC? E come si implementa in J2EE?
+Risposta: MVC (Model-View-Controller) è un design pattern architetturale che separa un'applicazione in tre componenti principali: il Modello (per la gestione dei dati), la Vista (per la presentazione dell'interfaccia utente) e il Controller (per la gestione delle richieste e delle azioni dell'utente). In J2EE, MVC può essere implementato utilizzando ad esempio framework come Spring MVC o Struts.
+
+Domanda: Che cosa è una Servlet? Chi estende? Quali sono i metodi e perché si chiamano così?
+Risposta: Una Servlet è un componente Java utilizzato per estendere le funzionalità di un server web. Una Servlet estende la classe HttpServlet o implementa l'interfaccia Servlet. Alcuni metodi principali di una Servlet includono doGet(), doPost(), doPut(), doDelete(), che corrispondono ai metodi HTTP e vengono chiamati dal server per gestire le richieste degli utenti.
+
+Domanda: Che cosa è una JSP?
+Risposta: Una JSP (JavaServer Pages) è una tecnologia utilizzata per creare pagine web dinamiche che mescolano HTML con codice Java. Le JSP vengono tradotte in servlet dal container JSP e poi eseguite sul server.
+
+Domanda: Quale è il ciclo di vita di una Servlet e di una Jsp?
+Risposta: Il ciclo di vita di una Servlet include la sua inizializzazione, la gestione delle richieste dei client, la distruzione e la pulizia delle risorse. Il ciclo di vita di una JSP include la sua traduzione in servlet, l'inizializzazione, la gestione delle richieste dei client e la distruzione.
+
+Domanda: Come si inserisce in questa architettura il pattern DAO?
+Risposta: Il pattern DAO (Data Access Object) può essere utilizzato all'interno di un'applicazione web per separare la logica di accesso ai dati dalla logica di business. I DAO vengono solitamente utilizzati nella parte Model dell'architettura MVC.
+
+Domanda: Che cosa è JSTL e quali tag usi in genere nei progetti?
+Risposta: JSTL (JavaServer Pages Standard Tag Library) è una libreria di tag predefinita per l'utilizzo in pagine JSP. Alcuni tag comuni includono <c:forEach> per iterare su una collezione, <c:if> per condizioni condizionali, <c:set> per impostare variabili, ecc.
+
+Domanda: Che cosa è Bootstrap?
+Risposta: Bootstrap è un framework front-end open-source per lo sviluppo di siti web e applicazioni web responsive. Fornisce componenti predefiniti, stili CSS e JavaScript per la creazione rapida e consistente di interfacce utente moderne.
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+Ecco le risposte alle domande:
+
+Domanda: Che cosa è Tomcat?
+Risposta: Tomcat è un server web open-source sviluppato da Apache Software Foundation. È un container servlet che implementa le specifiche JavaServer Pages (JSP) e Java Servlet e fornisce un ambiente per eseguire applicazioni web Java.
+
+Domanda: Che cosa è il versioning?
+Risposta: Il versioning è il processo di gestione delle versioni di un software, un documento o qualsiasi altra risorsa. Consiste nel tenere traccia delle modifiche apportate nel tempo e nell'assegnare un numero di versione univoco a ciascuna iterazione del prodotto.
+
+Domanda: Che cosa è git? Quali comandi conosci e che fanno?
+Risposta: Git è un sistema di controllo delle versioni distribuito ampiamente utilizzato per gestire il codice sorgente di progetti software. Alcuni comandi di base includono:
+- git init: inizializza un nuovo repository git.
+- git add: aggiunge i file modificati o nuovi al repository.
+- git commit: conferma le modifiche al repository.
+- git push: carica i commit locali sul repository remoto.
+- git pull: recupera i cambiamenti dal repository remoto e li applica al repository locale.
+- git checkout: permette di spostarsi tra branch o ripristinare file.
+
+Domanda: Che cosa è Eclipse?
+Risposta: Eclipse è un popolare ambiente di sviluppo integrato (IDE) utilizzato principalmente per lo sviluppo di software in Java. Fornisce un'ampia gamma di funzionalità, inclusa la scrittura di codice, il debugging, la gestione dei progetti e molto altro ancora.
+
+Domanda: Quanti IDE conosci?
+Risposta: Oltre a Eclipse, ci sono numerosi altri IDE (Integrated Development Environment) disponibili per lo sviluppo di software in diversi linguaggi di programmazione. Alcuni esempi includono IntelliJ IDEA, Visual Studio, NetBeans, PyCharm, Android Studio e Xcode.
